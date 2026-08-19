@@ -1,66 +1,96 @@
-# Hi there 👋 I'm Hariprasad!
+### Hi there 👋 I'm Hariprasad!
 
-🎓 I'm a passionate B.Tech CSE student at AVN College of Engineering (2022–2026), building secure, role-based full-stack web applications and aiming for a Java Full Stack Developer role.
+🎓 I'm a final-year B.Tech CSE student at AVN Institute of Engineering and Technology (2022–2026), building secure, role-based full-stack web applications and aiming for a Java Full Stack Developer role.
 
-## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/hariprasaddev)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mukkerahariprasad1849@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/hariprasaddev)
+🌐 **Socials:**
+[LinkedIn](https://linkedin.com/in/hariprasaddev) | [Email](mailto:mukkerahariprasad1849@gmail.com) | [GitHub](https://github.com/hariprasaddev)
 
-## 💻 Tech Stack:
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+---
 
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+### 💻 Tech Stack
 
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
-![Spring Security](https://img.shields.io/badge/Spring%20Security-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
-![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=hibernate&logoColor=white)
-![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
-![REST API](https://img.shields.io/badge/REST%20API-005571?style=for-the-badge&logo=fastapi&logoColor=white)
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=java,python,js,html,css,react,spring,mysql,docker,git,github,githubactions,postman,idea,vscode,nginx" alt="Tech Stack Icons"/>
+</p>
 
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black)
-![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ%20IDEA-000000?style=for-the-badge&logo=intellijidea&logoColor=white)
+**Languages:** Java, JavaScript (ES6+), Python (Basics), SQL, HTML5, CSS3
 
-## 🚀 Featured Project — FarmBridge
-**A role-based marketplace connecting farmers directly with buyers, no intermediaries.**
+**Backend:** Spring Boot, Spring MVC, Spring Security, Spring Data JPA, Hibernate, REST APIs, DTOs, JWT
 
-- Layered architecture (Controller → Service → Repository) with **15+ REST APIs** across 6 modules
-- JWT-based authentication with Spring Security enforcing role-based access for Admin, Farmer, and Buyer
-- Product CRUD, order processing, and farmer verification with MySQL + Hibernate/JPA
-- React.js frontend integrated with the backend APIs
-- APIs documented with Swagger, tested with Postman
+**Frontend:** React.js, React Hooks, React Router, Context API, Axios, Vite, Recharts
 
-🔗 [View Repository](https://github.com/hariprasaddev/FarmBridge)
+**Database:** MySQL, JPA, JPQL, Database Schema Design
 
-## 🛠️ Tech Stack
+**Security:** JWT Authentication, RBAC, BCrypt, CORS, Stateless Authentication
 
-**Languages:** Java, JavaScript, Python (Basics), C
-**Backend:** Spring Boot, Spring Security, Hibernate, JPA, REST APIs, JWT
-**Frontend:** React.js, HTML5, CSS3
-**Database:** MySQL
-**Tools:** Git, GitHub, Swagger, Postman, IntelliJ IDEA, VS Code
-**Core Concepts:** OOP, Data Structures, Collections Framework, MVC Architecture
+**Testing:** JUnit, Spring Boot Test, MockMvc, Integration Testing, E2E Testing
 
-## 📜 Certifications
-- Java Full Stack Development
+**DevOps & Cloud:** Docker, Docker Compose, GitHub Actions (CI/CD), Nginx, Render, Cloudinary
+
+**Tools:** Git, GitHub, Maven, npm, Postman, Swagger/OpenAPI, IntelliJ IDEA, VS Code
+
+---
+
+### 🚀 Featured Projects
+
+#### FarmBridge — Farmer-to-Buyer Marketplace
+A role-based marketplace connecting farmers directly with buyers, eliminating intermediaries. **Deployed and live.**
+
+- Designed a layered architecture (Controller → Service → Repository) with **74 REST API endpoints** across 15 controllers, covering Authentication, Products, Orders, Reviews, Wishlist, Notifications, and Admin modules
+- Implemented JWT-based stateless authentication with Spring Security, enforcing role-based access control (RBAC) for Admin, Farmer, and Buyer roles with BCrypt password hashing
+- Built product CRUD with Cloudinary-backed image storage, order placement with stock validation and status workflows, purchase-verified reviews, wishlist, and email + in-app notifications
+- Delivered a farmer verification workflow (document submission → admin approval) and role-based analytics dashboards
+- Containerized with Docker (multi-stage builds) and Docker Compose, automated with a GitHub Actions CI/CD pipeline running 60+ backend integration tests
+- Deployed to production on Render and independently diagnosed/fixed real deployment issues: a CORS misconfiguration, a Docker build path error, a database connection pool timeout, and a Cloudinary SDK compatibility bug
+- APIs documented with Swagger/OpenAPI, tested with Postman
+
+🔗 [Live App](https://farmbridge-frontend.onrender.com) &nbsp;•&nbsp; [Repository](https://github.com/hariprasaddev/FarmBridge)
+
+#### E-Commerce Microservices Application
+An e-commerce platform built with a microservices architecture using Spring Boot.
+
+- Developed separate services for Products, Users, Cart, and Orders
+- Implemented Eureka Service Discovery for inter-service communication
+- Used RabbitMQ for asynchronous messaging between services
+- Integrated MySQL with JPA/Hibernate for data persistence
+- Set up Git/GitHub version control with CI/CD for deployment
+
+🔗 [Repository](#)
+
+---
+
+### 🎓 Education
+
+| Year | Qualification | Institution | Score |
+|---|---|---|---|
+| 2022–2026 | B.Tech, Computer Science & Engineering | AVN Institute of Engineering and Technology | CGPA: 7.67/10 |
+| 2020–2022 | Intermediate (MPC) | Trinity Junior College, Karimnagar | 871/1000 |
+| 2019–2020 | SSC | ZPHS Garrepally | GPA: 9.3/10 |
+
+---
+
+### 📜 Certifications
+
 - TCS iON Career Edge – Young Professional
 - Infosys Springboard – Generative AI
 - Machine Learning Workshop – Innomatics Research Labs
 
-## 📊 GitHub Stats:
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=hariprasaddev&show_icons=true&theme=default)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=hariprasaddev&layout=compact&theme=default)
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=hariprasaddev&theme=default)
+---
 
-## 📫 Connect with me
+### 📊 GitHub Stats
+
+<p align="left">
+  <img src="https://github-readme-stats.vercel.app/api?username=hariprasaddev&show_icons=true&theme=default" alt="GitHub Stats" height="165"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=hariprasaddev&layout=compact&theme=default" alt="Top Languages" height="165"/>
+</p>
+
+<p align="left">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=hariprasaddev&theme=default" alt="GitHub Streak"/>
+</p>
+
+---
+
+### 📫 Connect with me
+
 - LinkedIn: [linkedin.com/in/hariprasaddev](https://linkedin.com/in/hariprasaddev)
-- Email: mukkerahariprasad1849@gmail.com
+- Email: [mukkerahariprasad1849@gmail.com](mailto:mukkerahariprasad1849@gmail.com)
